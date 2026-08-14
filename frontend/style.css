@@ -28,10 +28,30 @@ div{
 }
 body{
     background-color: antiquewhite;
+    margin: 0;
 }
 .card button{
  width: 70%;
  border-radius: 20px;
  padding: 10px;
  margin-bottom: 10px;
+}
+.navbar{
+text-align: center;
+border: 3px solid black;
+padding-top:20px ;
+padding-bottom:20px ;
+background-color: white;
+
+}
+.navbar a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: grey;
+    
+}
+.navbar a:hover{
+    color: black;
+    text-decoration: underline;
+
 }
